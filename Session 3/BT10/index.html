@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BT10</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="hovaten">Ho va ten:</label>
+      <input type="text" id="hovaten" name="hovaten" required /><br />
+      <label for="ngaysinh">Ngay sinh:</label>
+      <input type="date" id="ngaysinh" name="ngaysinh" required /><br />
+      <label for="gioitinh" tinh:></label>
+      <input type="radio" name="gioitinh" value="nam" required />Nam
+      <input type="radio" name="gioitinh" value="nu" />Nu<br />
+      <label for="sdt">So dien thoai:</label>
+      <input type="tel" id="sdt" name="sdt" required /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+      <label for="tencongty">Ten cong ty:</label>
+      <input type="text" id="tencongty" name="tencongty" required /><br />
+      <label for="vaitro">Vai tro trong cong ty:</label>
+      <select id="vaitro" name="vaitro" required>
+        <option value="giam doc CEO">Giam doc CEO</option>
+        <option value="truong phong">Truong phong</option>
+        <option value="nhan vien">Nhan vien</option>
+        <option value="thu viec">Thu viec</option>
+        <option value="lao cong">Lao cong</option></select><br />
+      <label for="quymo">Quy mo cong ty:</label>
+      <select id="quymo" name="quymo" required>
+        <option value="nho">Doanh nghiep nho</option>
+        <option value="lon">Doanh nghiep lon</option>
+      </select><br />
+      <label for="nganhnghe">Nganh nghe cong ty:</label>
+      <input type="text" name="nganhnghe" id="nghanhnghe" required /><br />
+      <label for="lydo">Ly do tham gia cau lac bo:</label>
+      <textarea name="lydo" id="lydo" required></textarea><br />
+      <label for="kinhnghiem">Kinh nghiem lanh dao:</label>
+      <textarea name="kinhnghiem" id="kinhnghiem" required></textarea>
+      <label for="muctieu">Muc tieu khi tham gia cau lac bo:</label>
+      <textarea name="muctieu" id="muctieu" required></textarea><br />
+      <label for="sukien">Chuong trinh su kien mong muon tham gia:</label>
+      <input type="checkbox" id="networking" name="sukien" value="networking" required/>Networking
+      <input type="checkbox" id="workshops" name="sukien" value="workshops"/>Workshops
+      <input type="checkbox" id="hoithao" name="sukien" value="hoithao"/>Hoi Thao<br />
+      <label for="dangky">Dang ky nhan ban tin:</label>
+      <input type="checkbox" id="dangky" name="dangky"/>Co<br />
+      <button type="submit">Dang ky hoi vien</button>
+    </form>
+  </body>
+</html>
