@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BT5</title>
+    <style>
+      *{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h3 {
+        color: darkblue;
+      }
+      .container {
+        box-shadow: inset 10px 0 0 orange;
+        padding-left: 20px;
+        margin-top: 20px;
+        width: 65%;
+        background-color: #f3ce1212;
+        padding-top: 5px;
+        padding-bottom: 15px;
+      }
+      .section {
+        margin-top: 30px;
+        
+        
+      }
+      .option {
+        margin-top:30px;
+        line-height: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>5. Groups of selectors</h3>
+    A comma-separated list of selectors represents the union of all elements
+    selected by each of the individual<br />
+    selectors in the list. (A comma is U+002C.) For example, in CSS when several
+    selectors share the same<br />
+    declarations, they may be grouped into a comma-separated list. White space
+    may appear before and/or after the<br />
+    comma.
+    <div class="container">
+      <div class="section">
+        <p>CSS example:</p>
+      </div>
+
+        <p>
+          In this example, we condense three rules with identical declarations
+          into one. Thus,
+        </p>
+      
+      <div class="option">
+        <p>h1 { font-family: sans-serif}</p>
+        <p>h2 { font-family: sans-serif}</p>
+        <p>h3 { font-family: sans-serif}</p>
+      </div>
+      <div class="section">
+        <p>is equivalent to:</p>
+        <p>h1, h2, h3 { font-family: sans-serif }</p>
+      </div>
+    </div>
+  </body>
+</html>

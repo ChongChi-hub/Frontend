@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT6</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1, p{
+            margin-left: 20px;
+        }
+        
+        code{
+            border: 0px solid gray;
+            background-color: rgba(128, 128, 128, 0.153);
+            color: brown;
+            align-items: center;
+        }
+        .center{
+            width: 90%;
+            border: 5px solid green;
+            padding: 10px;
+            background-color: rgb(252, 252, 252);
+            margin: auto;
+            text-align: center;
+        }
+        .example{
+            margin-top: 20px;
+            border: 0px;
+            padding: 5px;
+            background-color: rgba(128, 128, 128, 0.253);
+            border-radius: 10px;
+        }
+        .example h2{
+            margin-left: 10px;
+        }
+        .code{
+            padding-top: 15px;
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 15px;
+            border: 0px;
+            background-color: white;
+            box-shadow: inset 5px 0 green;
+            
+        }
+        .code .selector {
+            margin-top: 10px;
+            margin-left: -90px;
+            color: brown; 
+            background-color: transparent;
+        }
+        .code .property { 
+            margin-left: -100px;
+            background-color: transparent;
+            color: red; 
+        }
+        .code .value { 
+            margin-left: -90;
+            background-color: transparent;
+            color: blue; 
+        }
+        .try{
+            display: inline-block;
+            background-color: #04AA6D; /* Màu xanh */
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 1px 15px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: 10px ;
+            margin-bottom: 20px;
+        }
+            </style>
+</head>
+<body>
+    <h1>Center Align Text</h1>
+    <p>To just center the text inside an element, use <code>text-align: center;</code> </p>
+    <div class="center">
+        <p>This text is centered</p>
+    </div>
+    <div class="example">
+        <h2>Example</h2>
+        <pre class="code">
+            <code class="selector">.center</code> {
+                <code class="property">text-align</code>: <code class="value">center</code>;
+                <code class="property">border</code>: <code class="value">3px solid green</code>;
+  }
+          </pre>
+          
+        <div class="try">
+            <pre>Try it Yourself &raquo; </pre>
+        </div>
+    </div>
+</body>
+</html>
