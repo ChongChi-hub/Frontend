@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border: 1px solid #3d3b61;
+            padding: 30px;
+            width: 360px;
+            height: 220px;
+            background-color: #3d3b61;
+        }
+        .head {
+            display: flex;
+        }
+        label{
+            color: white;
+        }
+        .email{
+            margin-left: 20px;
+        }
+        textarea{
+            width: 350px;
+            height: 100px;
+            border: 1px solid #cacadb;
+            background-color: #3d3b61;
+        }
+        input{
+            width: 150px;
+            border: 1px solid #cacadb;
+            background-color: #3d3b61;
+            border-radius: 3px;
+            color: white;
+        }
+        button{
+            border: 1px solid #3d3b6100;
+            border-radius: 4px;
+            width: 150px;
+            height: 40px;
+            
+        }
+        .foot{
+            margin-top: 20px;  
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="head">
+            <div class="name">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br>  
+        </div>
+        <div class="email">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+        </div>
+    </div>
+    <div class="foot">
+        <label for="mess">Message</label><br>
+        <textarea id="mess" name="mess" required></textarea>
+        </div>
+        <button type="submit">SEND MESSAGE</button>
+    </form>
+</body>
+</html>

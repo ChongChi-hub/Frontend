@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .search-container {
+        display: flex;
+        align-items: center;
+        background: white;
+        border-radius: 30px;
+        padding: 10px 15px;
+        width: 400px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .search-container i {
+        font-size: 18px;
+        color: gray;
+        margin-right: 10px;
+      }
+
+      .search-container input {
+        border: none;
+        flex: 1;
+        font-size: 16px;
+      }
+
+      .icons {
+        display: flex;
+        padding: 5px;
+      }
+
+      .icons i {
+        font-size: 18px;
+        color: gray;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Nhập từ khóa tìm kiếm" />
+      <div class="icons">
+        <i class="fas fa-microphone"></i>
+        <i class="fas fa-camera"></i>
+      </div>
+    </div>
+  </body>
+</html>
