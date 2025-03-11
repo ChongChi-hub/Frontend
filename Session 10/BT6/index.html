@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/044cb39f80.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        margin: 0;
+      }
+      main {
+        color: white;
+        font-family: Arial, sans-serif;
+        width: 95vw;
+        margin: 2vh 1vw;
+      }
+      .img {
+        width: 95vw;
+        height: 80vh;
+        margin: 0 auto;
+        position: relative;
+      }
+      img {
+        width: 95vw;
+        height: 80vh;
+        object-fit: cover;
+      }
+      .img button {
+        border: 1px solid white;
+        color: white;
+        background-color: transparent;
+        padding: 1vh;
+        position: absolute;
+        top: 3vh;
+        left: 3vw;
+      }
+      .title {
+        font-size: 3vh;
+        width: 65%;
+        position: absolute;
+        bottom: 2vh;
+        left: 3vw;
+      }
+      .changePage {
+        width: 100%;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 2vw;
+      }
+      .back {
+        background-color: gray;
+        padding: 5px 10px;
+        margin: 20px;
+      }
+      .next {
+        background-color: black;
+        padding: 5px 10px;
+        margin: 0 20px;
+      }
+      .page {
+        margin: 20px;
+        color: lightgray;
+      }
+      .first {
+        color: white;
+        background-color: black;
+        padding: 3px 12px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="img">
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg"
+          alt="picture"
+        />
+        <button>Football</button>
+        <div class="title">
+          <p class="time">Agence France-Oresse - 04 June 2023</p>
+          <h1>
+            LIONEL MESSI LEAVING LIGUE 1 TEAM PARIS SAINT-GERMAIN, CLUB CONFIRMS
+          </h1>
+          <p>
+            The EuroLeague Finals Top Scorer is the individual award for the
+            player that gained the highest points in the EuroLeague Finals
+          </p>
+        </div>
+      </div>
+      <div class="changePage">
+        <i class="fa-solid fa-arrow-left back"></i>
+        <p class="first page">1</p>
+        <p class="page">2</p>
+        <p class="page">3</p>
+        <p class="page">4</p>
+        <i class="fa-solid fa-arrow-right next"></i>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/044cb39f80.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+      header p {
+        margin: 0;
+        position: absolute;
+        top: 3vh;
+        right: 5vw;
+      }
+      nav {
+        margin: 3vh 0;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        margin-right: 2vw;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 45vw 20vw 30vw;
+        gap: 2vw;
+        height: 80vh;
+      }
+      .mainStory {
+        padding: 3vh 0 0 3vw;
+        position: relative;
+      }
+      main img {
+        width: 100%;
+        height: 80%;
+      }
+      .mainStory h1 {
+        position: absolute;
+        bottom: 10vh;
+        left: 5vw;
+        width: 80%;
+        background-color: white;
+      }
+      .mainStory p {
+        margin: 5vh 0;
+      }
+      .topStory {
+        padding-top: 3vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .topStory h3,
+      .quickBites .bite h3:nth-child(1) {
+        background-color: yellow;
+        padding: 1vh 1vh;
+        width: 50%;
+        margin-top: 0;
+      }
+      .topStory p {
+        padding-bottom: 1vh;
+        border-bottom: 1px solid gray;
+        font-size: 2.2vh;
+      }
+      .quickBites {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3vh;
+      }
+      .quickBites .bite {
+        position: relative;
+        background-color: #f8f8f8;
+        padding: 0 2vw;
+        height: 60vh;
+        line-height: 4vh;
+      }
+      .bite h3:nth-of-type(1) {
+        position: relative;
+        top: 0;
+        left: -2vw;
+      }
+      .bite button {
+        position: relative;
+        left: 12vw;
+        border: none;
+        color: #005eff;
+        font-weight: bold;
+        background-color: transparent;
+      }
+      .signUp h3 {
+        font-weight: normal;
+        color: #005eff;
+        width: 85%;
+      }
+      .email input {
+        border: none;
+        width: 75%;
+      }
+      .email button {
+        border: none;
+        color: white;
+        background-color: #005eff;
+        padding: 1vh 1vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">World</a>
+        <a href="#">Politics</a>
+        <a href="#">Business</a>
+        <a href="#">Opinion</a>
+        <a href="#">Tech</a>
+        <a href="#">Science</a>
+        <a href="#">Health</a>
+        <a href="#">Sports</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Travel</a>
+        <a href="#">More</a>
+      </nav>
+      <p style="color: #005eff">
+        <i class="fa-solid fa-newspaper" style="color: #005eff"></i> E-PAPER
+      </p>
+    </header>
+    <main>
+      <div class="mainStory">
+        <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg" alt="picture" />
+        <h1>What One Photo Tells Us About North Korea's Nuclear Program</h1>
+        <p>
+          Clues from a propaganda photo reveal details about North Korea's
+          exopanding weapons programs and internal politics.
+        </p>
+      </div>
+      <div class="topStory">
+        <h3>TOP STORIES</h3>
+        <p>PM unveils Shiva statue in Coimbatore on Mahashivratri</p>
+        <p>PM Modi: Kanpur train accident was a conspiracy</p>
+        <p>Sena, BJP have no option but to join hands again’</p>
+        <p>Thousands bid adieu to martyred jawan in Kashmir</p>
+        <p>Jayalalithaa’s niece Deepa floats political outfit</p>
+        <p>‘China made mistake of ignoring India’s talent’</p>
+        <p>Jayalalithaa’s niece Deepa floats political outfit</p>
+      </div>
+      <div class="quickBites">
+        <div class="bite">
+          <h3>QUICK BITES</h3>
+          <h3>
+            Stocks Sell Off, Gold Rises Ahead of Trump Speech: Markets Wrap
+          </h3>
+          <p>
+            Global stocks retreated, erasing gains for the week as a glum set of
+            European corporate earnings compounded investor nervousness before a
+            major speech from U.S. President Donald Trump. Gold extended its
+            rally as the dollar edged lower.
+          </p>
+          <button>Next ></button>
+        </div>
+        <div class="signUp">
+          <h3>Get the Quick Bites delivered to your inbox daily</h3>
+          <div class="email">
+            <input type="text" placeholder="Enter your email" />
+            <button>Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/044cb39f80.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: #f5f5f5;
+      }
+      main {
+        background-color: white;
+        margin: 0 auto;
+        width: 85%;
+        display: flex;
+      }
+      .moreImg {
+        margin: 5vh 1vw 0 10vw;
+        
+      }
+      .moreImg img {
+        margin-bottom: 2vh;
+        width: 4vw;
+        height: 4vw;
+        border-radius: 15px;
+      }
+      .mainImg {
+        margin: 5vh 5vw 0 0;
+      }
+      .mainImg img {
+        height:45vh;
+        border-radius: 15px;
+      }
+      .description {
+        margin: 5vh 0 0 0;
+      }
+      .description h2 {
+        margin: 0 0 1vh 0;
+      }
+      .description .price,
+      .size p,
+      .color p {
+        color: gray;
+        margin-top: 0;
+      }
+      .description .reviews {
+        color: gray;
+        margin-top: 0;
+        padding-left: 1vw;
+        border-left: 1px solid gray;
+      }
+      .description .detail {
+        width: 55%;
+      }
+      .btn-type1 {
+        color: white;
+        background-color: #b88e2f;
+        border: none;
+        border-radius: 5px;
+        padding: 0.5vh 0.5vw;
+        margin: 0.3vw;
+      }
+      .btn-type2 {
+        background-color: #f9f1e7;
+        border: none;
+        border-radius: 5px;
+        padding: 0.5vh 0.5vw;
+        margin: 0 0.3vw 3vh 0;
+      }
+      .color button {
+        border: none;
+        border-radius: 20px;
+        padding: 0.5vh 0.5vw;
+        margin: 0 0.3vw 3vh 0;
+      }
+      #purple {
+        background-color: #816dfa;
+        color: #816dfa;
+      }
+      #black {
+        background-color: black;
+        color: black;
+      }
+      #grown {
+        background-color: #b88e2f;
+        color: #b88e2f;
+      }
+      .more {
+        display: flex;
+      }
+      .more button {
+        padding: 2vh 2vw;
+        margin: 0 1vw 5vh 0;
+        border-radius: 1vw;
+        background-color: white;
+      }
+      #quantity {
+        border: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+        border-radius: 1vw;
+        height: 7vh;
+        margin-right: 1vw;
+      }
+      td {
+        color: gray;
+        font-size: 1vw;
+      }
+      .icon {
+        color: black;
+        margin-right: 1vw;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="moreImg">
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg"
+          alt="pic2"
+        /><br />
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg"
+          alt="pic3"
+        /><br />
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg"
+          alt="pic4"
+        /><br />
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg"
+          alt="pic5"
+        /><br />
+      </div>
+      <div class="mainImg">
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg"
+          alt="pic1"
+        />
+      </div>
+      <div class="description">
+        <h2>Asgaarrd sofa</h2>
+        <p class="price">Rs. 250,000.00</p>
+        <div class="rating">
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-solid fa-star-half" style="color: #ffd43b"></i>
+          <span class="reviews">5 Customer Review</span>
+        </div>
+        <p class="detail">
+          Setting the bar as one of the loudest speakers in its class, the
+          Kilburn is a compact, stout-hearted hero with a well-balanced audio
+          which boasts a clear midrange and extended highs for a sound.
+        </p>
+        <div class="size">
+          <p>Size</p>
+          <button class="btn-type1">L</button>
+          <button class="btn-type2">XL</button>
+          <button class="btn-type2">XS</button>
+        </div>
+        <div class="color">
+          <p>Color</p>
+          <button id="purple">o</button>
+          <button id="black">o</button>
+          <button id="grown">o</button>
+        </div>
+        <div class="more">
+          <div id="quantity">
+            <p>-</p>
+            <p>1</p>
+            <p>+</p>
+          </div>
+          <button>Add to Card</button>
+          <button>+ Compare</button>
+        </div>
+        <hr />
+        <div class="moreDetail">
+          <table>
+            <tr>
+              <td>SKU</td>
+              <td>: SS001</td>
+            </tr>
+            <tr>
+              <td>Category</td>
+              <td>: Sofas</td>
+            </tr>
+            <tr>
+              <td>Tags</td>
+              <td>: Sofa, Chair, Home, Shop</td>
+            </tr>
+            <tr>
+              <td>Share</td>
+              <td>
+                :
+                <i class="fab fa-facebook icon"></i>
+                <i class="fab fa-linkedin icon"></i>
+                <i class="fab fa-twitter icon"></i>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
