@@ -1,0 +1,112 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        "head1 head1"
+        "itembody itembody"
+        "head2 head2"
+        "foot foot";    
+    gap: 20px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+.head1 {
+    grid-area: head1;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 15px;
+    height: 70px;
+}
+
+.itembody {
+    grid-area: itembody;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+}
+
+.item1 {
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+    background-color: brown;
+}
+
+.item2 {
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+    background-color: orange;
+}
+
+.head2 {
+    border-radius: 5px;
+    padding: 15px;
+    grid-area: head2;
+    text-align: center;
+    background-color: blue;
+    height: 70px;
+}
+
+.foot {
+    grid-area: foot;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item3 {
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    background-color: black;
+    height: 200px;
+    
+}
+
+.item4 {
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    background-color: brown;
+    height: 200px;
+}
+
+.item5 {
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    background-color: orange;
+    height: 200px;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .head1, .head2 {
+        width: 97%;
+        height: 100px;
+        margin: 20px;
+    }
+
+    .itembody {
+        flex-direction: column; 
+        align-items: center;
+        width: 194%;
+        height: 100px;
+        margin-top: -20px;
+        margin-bottom: -40px;
+    }
+    .foot{
+        margin-top: -5px;
+        flex-direction: column;
+        width: 121%;
+        height: 100px;
+    }
+}
