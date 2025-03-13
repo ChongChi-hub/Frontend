@@ -1,0 +1,15 @@
+.bodies{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 100%;
+}
+.card{
+    margin: 10px;
+}

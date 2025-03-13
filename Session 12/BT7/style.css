@@ -1,0 +1,47 @@
+.bodies{
+    display: flex;  
+}
+.card{
+    width: 300px;
+    margin-left: 20px;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 90px;
+}
+.logobs{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.fa-solid{
+    color: white;
+}
+.fa-regular{
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.foot1{
+    margin-top: 50px;
+}
+.foot2{
+    margin-top: 14px;
+}
+.foot3{
+    margin-top: 48px;
+}
+.foot p{
+    color: white;    
+    font-size: 12px;
+}
+.right {
+    display: flex;
+}
+.right p, i{
+    margin: 5px;
+}
