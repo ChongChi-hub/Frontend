@@ -1,0 +1,26 @@
+#box{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    height:80%;
+}
+#text-box{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    position:relative;
+    border-radius:5px;
+    width:60%;
+}
+#close-btn{
+    position:absolute;
+    top:0px;
+    right:10px;
+    cursor:pointer;
+}
+#btn{
+    border:1px solid black;
+    width:20%;
+}

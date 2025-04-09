@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+#headBox{
+    
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    padding: 10px;
+    width: 800px;
+}
