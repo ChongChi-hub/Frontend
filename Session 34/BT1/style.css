@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 390px;
+    padding: 50px;
+}
+label, input{
+    margin: 15px;
+    width: 340px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0084fb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 365px;
+    margin: 10px;
+}
